@@ -1,0 +1,48 @@
+ body, div, span {
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: #f1f1f1;
+  font-size: 19px;
+  line-height: 22px;
+  color: #404040;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+}
+
+.todo-class {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    margin: 40px;
+   
+}
+
+.todo-class .class-write-input {
+ width: 300px;
+ height: 40px;
+}
+.todo-class .class-add-input {
+    height: 46px;
+}
+
+.todo-func {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px; 
+}
+.todo-func .func-write-input {
+    width: 300px;
+    height: 40px;
+}
+
+.todo-func .func-add-input {
+    height: 46px;
+}
+
+
+
